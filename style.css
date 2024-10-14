@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #b0b0b0;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.stopwatch{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 24px;
+    border-radius: 20px;
+}
+
+.timerDisplay{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.btn{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    background-color: var(--clr);
+    padding: 12px 24px;
+    margin-inline: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* For hover */
+
+/* #stopBtn:hover
+ {
+ background-color: #f50909;
+  background-position: 0 0;
+  color: #070707;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-inline: 12px;
+  border: 1px solid #d13934;
+  justify-content: center;
+}
+
+
+#startBtn:hover
+ {
+ background-color: rgb(13, 187, 13);
+  background-position: 0 0;
+  color: #070707;
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-inline: 12px;
+  border: 1px solid rgb(79, 248, 79);
+  justify-content: center;
+}
+
+
+#resetBtn:hover
+ {
+ background-color: rgb(48, 48, 236);
+  background-position: 0 0;
+  color: #070707;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-inline: 12px;
+  border: 1px solid #20202A44;
+  justify-content: center;
+}
+   */
+
+  
